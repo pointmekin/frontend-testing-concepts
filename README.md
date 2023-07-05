@@ -259,26 +259,26 @@ https://dev.to/josematoswork/the-ultimate-guide-to-frontend-testing-tips-tools-a
 
 ## Challenges of Automated FrontEnd Testing
 
-**Consistently Evolving UI: **
+**Consistently Evolving UI:**
 
 In modern software, core libraries and third-party components must be upgraded every few months. Upgrading one library requires commensurate changes to all other necessary components. With every upgrade, all components need to be retested, including automation and testing tools. Latest APIs and functionalities must also be integrated, built, and handled within increasingly short timelines.
 
-**Constantly Changing User Preferences: **
+**Constantly Changing User Preferences:**
 
 With new devices, browser, and operating system versions introduced every few months, user demands and preferences keep changing. For example, the pandemic caused an explosive increase in users’ demand/desire for video conferencing and streaming. These newer user demands must be identified and implemented without considerable delay.Of course, every time newer features are added, new tests need to be created and executed. One also has to keep testing existing aspects like website load speed (have new features slowed down the page?) or visual appeal (has the new button covered up the existing menu?) Essentially, the developers’ and testers’ work on a specific software never ends.
 
-**Choosing the right Automation Tool: **
+**Choosing the right Automation Tool:**
 
 Effecting, periodic front-end testing requires automation. Manual testers cannot be expected to run tests every time an upgrade is pushed. However, choosing an automation tool that can be effectively set up and empowered with test scripts to run requisite checks and verifications. However, with the plethora of automation testing tools available, it can be somewhat challenging to select what would work best for your team, given their skill sets and project requirements. However, Selenium Webdriver, Cypress, TestCafe, and Playwright are some preferred frameworks for front-end testing.
 
-**Detecting cross-browser and cross device issues: **
+**Detecting cross-browser and cross device issues:**
 
 With thousands of browser versions and devices used worldwide to access the internet, testers must cover a massive range to equip a site or app for real-world usage. This can be challenging since new devices and browser versions are constantly released. To keep up, teams need access to real browsers and devices. An in-house device lab takes significant financial and human resources to set up, maintain and upgrade. Using test infra hosted on the cloud is more accessible, as in BrowserStack.
 
 ## Front End Testing Best Practices
 https://www.browserstack.com/guide/front-end-testing
 
-**Start with the testing pyramid: **
+**Start with the testing pyramid:**
 
 For testers and teams just starting with Front End testing, it’s a good idea to use it as a blueprint. That means: starting running unit tests, then moving on to integration testing, and finally, executing end-to-end testing. Once this structure is in place, achieving reasonably high test coverage will be relatively easy.
 Dive deeper into the testing pipeline, and add more tests once the testing pyramid comes into action. Once unit tests, integration tests, and end-to-end tests are completed, it will be easier to expand the testing scope and include things like acceptance testing, visual testing, etc.
@@ -288,7 +288,7 @@ Dive deeper into the testing pipeline, and add more tests once the testing pyram
 Front End testing requires analyzing and verifying hundreds, sometimes thousands of UI and functional elements. The former includes formatting, CSS, text, and graphics, while the latter comprises forms, links, buttons, etc.
 These elements must be prioritized for adequate testing to decide what gets tested first. For example, it makes sense to test page load time, basic text, images, and essential functions (adding to cart, payment) first, then move on to graphics and pop-ups. Check that all elements are visible and responsive, and then move on to verifying graphics and layout.
 
-**Choose the right Front End testing tools: **
+**Choose the right Front End testing tools:**
 
 Outside of providing real browsers and devices for test execution (and this is a mandatory feature), the ideal Front End testing tool should offer ways to make the process as seamless as possible.
 BrowserStack, for example, offers a range of debugging options, and pre-installed developer tools that testers can quickly access to identify and resolve bugs. It also offers integrations with a range of necessary tools spanning automation frameworks, CI/CD, build and playback, record and deploy, and much more.
